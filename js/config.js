@@ -4,7 +4,7 @@ window.SITE_CONFIG = {
   // ISO date/time the countdown counts down to.
   launchDate: "2026-09-15T00:00:00",
   // Destination for the "Join our Discord" button.
-  discordUrl: "https://discord.gg/runeith",
+  discordUrl: "https://discord.gg/CgdXNBTcQh",
   // How many of the floating rune items to show (4-20).
   itemCount: 20,
   // Multiplies animation/teleport speed; 1 = normal, >1 = faster, <1 = slower.
