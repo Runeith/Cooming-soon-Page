@@ -1,4 +1,5 @@
-name = "cooming-soon-page"
+# wrangler.toml
+name = 'runeithlandingsoon'
 compatibility_date = "2026-08-03"
 
 [assets]
