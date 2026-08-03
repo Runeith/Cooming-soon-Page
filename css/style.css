@@ -1,0 +1,349 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/fonts/cinzel-latin-ext.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/fonts/cinzel-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../assets/fonts/cinzel-latin-ext.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../assets/fonts/cinzel-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/fonts/cinzel-latin-ext.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/fonts/cinzel-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cinzel Decorative';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/fonts/cinzel-decorative-700-latin-ext.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cinzel Decorative';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/fonts/cinzel-decorative-700-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cinzel Decorative';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../assets/fonts/cinzel-decorative-900-latin-ext.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cinzel Decorative';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../assets/fonts/cinzel-decorative-900-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Uncial Antiqua';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/fonts/uncial-antiqua-latin-ext.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Uncial Antiqua';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/fonts/uncial-antiqua-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@keyframes float {
+  0% { transform: translate(0,0); }
+  50% { transform: translate(6px,-18px); }
+  100% { transform: translate(0,0); }
+}
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { margin: 0; background: #1a120b; font-family: 'Cinzel', serif; }
+a { color: #e7c76b; }
+a:hover { color: #ffe8a8; }
+
+.stage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(180deg, #2a1c10, #140d07);
+}
+
+.bg-texture {
+  position: absolute;
+  inset: 0;
+  background-image: url("../assets/images/stone-wall-bg.jpg");
+  background-size: 420px 420px;
+  background-repeat: repeat;
+  filter: sepia(0.55) saturate(1.3) brightness(0.85) hue-rotate(-8deg);
+}
+.bg-tint {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(160deg, rgba(90,67,39,0.35), rgba(40,27,14,0.55));
+  mix-blend-mode: multiply;
+}
+.bg-inner-shadow {
+  position: absolute;
+  inset: 0;
+  box-shadow: inset 0 0 120px rgba(0,0,0,0.55);
+}
+.bg-vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 42%, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 30%, rgba(10,6,3,0.55) 70%, rgba(6,4,2,0.85) 100%);
+}
+
+.gate {
+  position: absolute;
+  left: 50%;
+  top: 6%;
+  transform: translateX(-50%);
+  width: min(46vw, 620px);
+  aspect-ratio: 5 / 6.6;
+  border-radius: 50% 50% 8px 8px / 42% 42% 8px 8px;
+  padding: 22px;
+  background: linear-gradient(160deg, #7a5a34, #4c3620 55%, #3a2818);
+  box-shadow: 0 0 0 6px #241608, 0 20px 60px rgba(0,0,0,0.65), inset 0 0 0 3px rgba(201,162,90,0.25);
+  z-index: 5;
+}
+.gate-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50% 50% 4px 4px / 42% 42% 4px 4px;
+  overflow: hidden;
+}
+.gate-image {
+  position: absolute;
+  inset: 0;
+  background-image: url("../assets/images/gate-landscape.webp"), radial-gradient(ellipse at 50% 90%, rgba(0,0,0,0.45), rgba(0,0,0,0) 55%);
+  background-size: cover;
+  background-position: center;
+}
+
+.amulet {
+  position: absolute;
+  left: 50%;
+  top: calc(6% - 40px);
+  transform: translateX(-50%);
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #4c3620, #2a1c10 70%);
+  box-shadow: 0 0 26px rgba(233,190,110,0.55), 0 4px 10px rgba(0,0,0,0.5), inset 0 0 0 3px #241608;
+  z-index: 7;
+}
+.amulet svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.amulet-letter {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Uncial Antiqua', serif;
+  font-size: 24px;
+  color: #f3dfa8;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.7);
+}
+
+.floating-items {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+.floating-item {
+  position: absolute;
+  transition: left 0.7s ease, top 0.7s ease, opacity 0.6s ease;
+  filter: drop-shadow(0 4px 6px rgba(0,0,0,0.5));
+}
+.floating-item-spin {
+  width: 100%;
+  height: 100%;
+  animation-name: float;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.floating-item-shape {
+  position: absolute;
+  inset: 0;
+  animation-name: spin;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  box-shadow: 0 0 12px rgba(0,0,0,0.45);
+}
+.floating-item-shape.kite {
+  box-shadow: 0 0 12px rgba(0,0,0,0.45), inset 0 0 0 2px rgba(0,0,0,0.25);
+}
+
+.panel {
+  position: absolute;
+  left: 50%;
+  bottom: 4.2%;
+  transform: translateX(-50%);
+  width: min(92vw, 720px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  padding: 28px 40px;
+  border-radius: 14px;
+  background: linear-gradient(180deg, rgba(58,40,22,0.92), rgba(26,17,9,0.94));
+  box-shadow: 0 0 0 2px rgba(201,162,90,0.35), 0 0 0 8px rgba(0,0,0,0.35), 0 24px 50px rgba(0,0,0,0.6);
+  z-index: 6;
+}
+.panel-title {
+  font-family: 'Uncial Antiqua', serif;
+  font-size: clamp(38px, 6vw, 68px);
+  letter-spacing: 2px;
+  line-height: 1;
+  color: #f0d69a;
+  background: linear-gradient(180deg, #fbe6ad, #c99a4e 60%, #8f6a2e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 2px 0 rgba(0,0,0,0.4);
+  text-align: center;
+}
+.panel-subtitle {
+  font-family: 'Cinzel Decorative', serif;
+  font-weight: 700;
+  font-size: clamp(14px, 2vw, 20px);
+  letter-spacing: 6px;
+  color: #e7c76b;
+  text-transform: uppercase;
+}
+.panel-tagline {
+  font-size: 16px;
+  color: rgba(233,214,171,0.8);
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.countdown {
+  display: flex;
+  gap: 14px;
+  margin-top: 4px;
+}
+.countdown-unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 58px;
+  padding: 10px 8px;
+  border-radius: 8px;
+  background: rgba(0,0,0,0.3);
+  box-shadow: inset 0 0 0 1px rgba(201,162,90,0.3);
+}
+.countdown-value {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: #f3dfa8;
+}
+.countdown-label {
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: rgba(233,214,171,0.6);
+  margin-top: 2px;
+}
+
+.discord-link {
+  margin-top: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 26px;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #8a6a35, #5c421f);
+  color: #fbe9c2;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 0 0 0 1px rgba(233,214,171,0.35), 0 6px 16px rgba(0,0,0,0.4);
+}
+.discord-link:hover {
+  background: linear-gradient(180deg, #9c7a41, #6a4d26);
+}
+.discord-icon {
+  width: 18px;
+  height: 14px;
+  border-radius: 8px 8px 4px 4px;
+  background: #e7c76b;
+  display: inline-block;
+  position: relative;
+}
+.discord-icon::before,
+.discord-icon::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  width: 3px;
+  height: 5px;
+  background: #3a2818;
+  border-radius: 50%;
+}
+.discord-icon::before { left: 3px; }
+.discord-icon::after { right: 3px; }

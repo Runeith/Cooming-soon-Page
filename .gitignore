@@ -1,0 +1,18 @@
+# Wrangler / Cloudflare
+.wrangler/
+.dev.vars
+
+# Environment variables
+.env
+.env.*
+
+# Node (voor het geval er ooit tooling bijkomt)
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/

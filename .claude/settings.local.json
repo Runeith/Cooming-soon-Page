@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node \"C:\\\\Users\\\\JEROEN~1.GOV\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-jeroen-govers-Documents-GitHub-Cooming-soon-Page\\\\044e4daf-aa86-4d50-b6b3-bd8858d3c36b\\\\scratchpad\\\\inspect.js\" index.html)",
+      "Bash(node -e ' *)",
+      "Bash(xxd extracted_98224ce6-0c1b-4c0f-af21-839c2b901b13.js)",
+      "Bash(xxd extracted_7e185d95-9a36-4ca1-b0f9-9a0d29d921e6.js)",
+      "Bash(node \"C:\\\\Users\\\\JEROEN~1.GOV\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-jeroen-govers-Documents-GitHub-Cooming-soon-Page\\\\044e4daf-aa86-4d50-b6b3-bd8858d3c36b\\\\scratchpad\\\\extract.js\")",
+      "Bash(mkdir -p assets/fonts assets/images css js)",
+      "Bash(cp \"_extracted/fonts/eae37ea1-ba9c-4e8a-bf10-57eccb1774f4.woff2\" \"assets/fonts/cinzel-latin-ext.woff2\")",
+      "Bash(cp \"_extracted/fonts/47846391-234b-42fb-9c75-87113698ff88.woff2\" \"assets/fonts/cinzel-latin.woff2\")",
+      "Bash(cp \"_extracted/fonts/37992239-1848-48bd-af30-e30a10b1aefb.woff2\" \"assets/fonts/cinzel-decorative-700-latin-ext.woff2\")",
+      "Bash(cp \"_extracted/fonts/71efd044-fc2c-4aca-a3fb-b73e99e95da4.woff2\" \"assets/fonts/cinzel-decorative-700-latin.woff2\")"
+    ]
+  }
+}
