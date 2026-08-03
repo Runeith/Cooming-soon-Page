@@ -10,7 +10,12 @@
       "Bash(cp \"_extracted/fonts/eae37ea1-ba9c-4e8a-bf10-57eccb1774f4.woff2\" \"assets/fonts/cinzel-latin-ext.woff2\")",
       "Bash(cp \"_extracted/fonts/47846391-234b-42fb-9c75-87113698ff88.woff2\" \"assets/fonts/cinzel-latin.woff2\")",
       "Bash(cp \"_extracted/fonts/37992239-1848-48bd-af30-e30a10b1aefb.woff2\" \"assets/fonts/cinzel-decorative-700-latin-ext.woff2\")",
-      "Bash(cp \"_extracted/fonts/71efd044-fc2c-4aca-a3fb-b73e99e95da4.woff2\" \"assets/fonts/cinzel-decorative-700-latin.woff2\")"
+      "Bash(cp \"_extracted/fonts/71efd044-fc2c-4aca-a3fb-b73e99e95da4.woff2\" \"assets/fonts/cinzel-decorative-700-latin.woff2\")",
+      "Bash(python -m http.server 8532)",
+      "Bash(curl -sI http://localhost:8532/index.html)",
+      "Bash(kill %1)",
+      "Bash(pkill -f \"http.server 8532\")",
+      "Bash(git check-ignore *)"
     ]
   }
 }

@@ -1,42 +1,59 @@
 # Runeith — Coming Soon Page
 
-Statische "coming soon"-pagina voor Runeith, gehost als static site op Cloudflare via Wrangler.
+A static "coming soon" landing page for Runeith, hosted on Cloudflare via Wrangler.
 
-## Inhoud van dit repo
+## Contents
 
-- `index.html` — de volledige pagina, als één self-contained gebundeld bestand (HTML, CSS, JS, fonts en afbeeldingen zijn erin verpakt). Zie de opmerking hieronder over hoe dit bestand werkt.
-- `wrangler.toml` — Cloudflare/Wrangler-configuratie: projectnaam en de map die als static assets wordt gepubliceerd (`./`, oftewel de repo-root).
-- `CLOUDFLARE_SETUP.md` — stap-voor-stap uitleg om dit project te koppelen aan Cloudflare Pages via GitHub.
-- `LICENSE` — MIT-licentie.
+- `index.html` — page markup.
+- `css/style.css` — fonts (`@font-face`), animations, and all visual styling.
+- `js/config.js` — the editable site configuration (see below).
+- `js/script.js` — page behaviour: the countdown timer and the floating rune items.
+- `assets/fonts/` — self-hosted webfonts (Cinzel, Cinzel Decorative, Uncial Antiqua).
+- `assets/images/` — the background texture and the gate artwork.
+- `wrangler.toml` — Cloudflare/Wrangler configuration: project name and the directory published as static assets.
+- `CLOUDFLARE_SETUP.md` — step-by-step guide to connect this project to Cloudflare Pages via GitHub.
+- `LICENSE` — MIT license.
 
-## Over `index.html`
+## Configuration
 
-`index.html` is geen gewoon handgeschreven HTML-bestand. Het is de output van een bundler-tool die de hele pagina — template, stijlen, scripts, fonts, afbeeldingen — inpakt in één bestand:
+Site-specific settings live in `js/config.js` as a plain object, so they can be tweaked without touching markup or logic:
 
-- De zichtbare `<body>` bevat alleen een laadscherm en een klein "unpacker"-script.
-- De eigenlijke pagina-inhoud staat gecodeerd (base64, deels gzip-gecomprimeerd) in een paar `<script type="__bundler/...">`-tags verderop in het bestand.
-- Bij het laden van de pagina pakt het unpacker-script deze data uit, zet de resources om in blob-URLs, en herbouwt de volledige pagina in de browser.
+```js
+window.SITE_CONFIG = {
+  showCountdown: true,
+  launchDate: "2026-09-15T00:00:00",
+  discordUrl: "https://discord.gg/runeith",
+  itemCount: 20,
+  speedMultiplier: 1
+};
+```
 
-Wil je de inhoud (tekst, vormgeving) aanpassen, doe dat dan bij voorkeur in de brontool die dit bundelbestand heeft gegenereerd en exporteer opnieuw, in plaats van rechtstreeks in `index.html` te knippen en plakken — de leesbare tekst staat niet direct in de HTML, maar zit verpakt in de databestanden.
+| Key | Effect |
+|---|---|
+| `showCountdown` | Show or hide the countdown block. |
+| `launchDate` | ISO date/time the countdown counts down to. |
+| `discordUrl` | Destination of the "Join our Discord" button. |
+| `itemCount` | Number of floating rune items shown (4–20). |
+| `speedMultiplier` | Speeds up (>1) or slows down (<1) the floating-item animations. |
 
-## Deployen
+## Deployment
 
-Dit project wordt gedeployed via Cloudflare Pages, gekoppeld aan GitHub:
+This project deploys via Cloudflare Pages, connected to GitHub:
 
-1. Elke push naar `main` triggert automatisch een deploy (`npx wrangler deploy`) in Cloudflare.
-2. Pushes naar andere branches krijgen een eigen preview-deploy (`npx wrangler versions upload`).
-3. Er is geen lokale build-stap of CI-configuratie nodig — Wrangler publiceert direct de map uit `wrangler.toml` (`./`).
+1. Every push to `main` automatically triggers a deploy (`npx wrangler deploy`) on Cloudflare.
+2. Pushes to other branches get their own preview deploy (`npx wrangler versions upload`).
+3. There is no local build step or CI config needed — Wrangler publishes the directory from `wrangler.toml` (`./`) directly.
 
-Volledige setup-instructies (project aanmaken in Cloudflare, build-instellingen, troubleshooting) staan in [`CLOUDFLARE_SETUP.md`](./CLOUDFLARE_SETUP.md).
+Full setup instructions (creating the project in Cloudflare, build settings, troubleshooting) are in [`CLOUDFLARE_SETUP.md`](./CLOUDFLARE_SETUP.md).
 
-## Lokaal bekijken
+## Viewing locally
 
-Omdat er geen build-stap is, volstaat het om `index.html` lokaal te openen in een browser, of te serveren met een simpele static file server, bijvoorbeeld:
+There is no build step, so it's enough to open `index.html` directly in a browser, or serve it with a simple static file server, e.g.:
 
 ```bash
 npx wrangler dev
 ```
 
-## Licentie
+## License
 
-MIT — zie [`LICENSE`](./LICENSE).
+MIT — see [`LICENSE`](./LICENSE).
