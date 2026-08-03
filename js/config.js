@@ -1,6 +1,6 @@
 window.SITE_CONFIG = {
   // Whether the countdown block is shown at all.
-  showCountdown: true,
+  showCountdown: false,
   // ISO date/time the countdown counts down to.
   launchDate: "2026-09-15T00:00:00",
   // Destination for the "Join our Discord" button.
